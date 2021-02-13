@@ -1,0 +1,43 @@
+/* Adrian Muth */
+* {
+  background-color: #E7D7C1;
+  text-align: center;
+}
+
+.secondcolor {
+  background-color: #A78A7F;
+  border-radius: 250px;
+}
+
+#form {
+  background-color: #A78A7F;
+  border-radius: 250px;
+}
+
+h1 {
+  font-family: "Copperplate";
+  color: #8C1C13;
+}
+
+h3 {
+  font-family: "Courier New";
+  color: #BF4342;
+}
+
+label {
+  border-radius: 100px;
+  padding: 3px;
+  margin: 10px;
+}
+
+input {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#orderspermonth {
+  display: flex;
+  margin: auto;
+  padding-left: 45%;
+  padding-right: 45%;
+}
