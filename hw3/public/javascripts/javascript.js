@@ -22,12 +22,17 @@
         Solution: I used the code shown in this post.
         */
         $(function() {
-          // Opens scrollable dropdown menu upon hovering -->
+          // Opens scrollable dropdown menu upon hovering
           $('#months').hover(function() {
               $(this).attr('size', 5);
           },
           function() {
               $(this).attr('size', 1);
           });
+        });
+
+        // updates orders when user clicks month menu
+        $('#months').click(function() {
+            $.post("/orders", {$("#orderspermonth a:selected").text()}, getData);
         });
       });
